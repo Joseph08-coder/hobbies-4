@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+        margin: 0;
+    padding-top: 800px;
+    background:linear-gradient(DarkBlue 0%,skyblue 100%);
+    }
+img{
+    width: 200px;
+    height: 200px;
+}
+img{
+    transition:transform .2s; 
+}
+img:hover{
+    transform: scale(0.9)
+}
+#welcome{
+    background:linear-gradient(skyblue 0%,darkblue 100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 800px;
+    display: table;
+    width: 100%;
+    height: 100%;
+    }
+.line{
+    height: 6px;
+  width: 100px ;
+    background-color: black;
+    margin: 7px auto;
+      }
+#Bio{
+      background:linear-gradient(DarkBlue 0%,skyblue 100%);
+     text-align: center;
+    font-size: 17px;
+}
+#inspiration{
+      background:linear-gradient(skyblue 0%,darkblue 100%);
+     text-align: center;
+    font-size: 17px;
+}
+#Work{
+      background:linear-gradient(DarkBlue 0%,skyblue 100%);
+     text-align: center;
+    font-size: 17px;
+}
+.menu{
+    right: 30px;
+    top: 10px;
+    position: absolute;
+  z-index: 9;
+    list-style:none;
+        cursor: pointer;
+    }
+.Option{
+    float: left;
+    padding: 7px;
+}
+.Option:hover{
+    color: darkblue;
+}
+h1{
+    font-family: 'Lobster', cursive;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+}
